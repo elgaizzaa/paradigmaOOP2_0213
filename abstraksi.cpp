@@ -19,3 +19,11 @@ class abstraksiKlas {
  }
 };
 
+int main() {
+    abstraksiKlas ak;
+    ak.setXY("Yogyakarta" ,"kampus");
+    ak.display();
+
+    return 0;
+}
+
